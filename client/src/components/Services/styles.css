@@ -1,0 +1,35 @@
+.services-con{
+    font-family: 'Chewy';
+    letter-spacing: 2px;
+}
+.services-con h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.service{
+    width: calc(45% - 4%);
+    text-align: left;
+    /* border: 1px solid blue; */
+}
+.service h2{
+    font-size: 30px;
+}
+@media screen and (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service {
+        width: 80%; /* To make each service take full width on smaller screens */
+        margin: auto;
+    }
+}

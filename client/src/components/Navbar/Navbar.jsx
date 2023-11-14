@@ -22,6 +22,8 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 
 export const Navbar = ({totalItems}) => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const isMobile = useMediaQuery('(max-width:768px)'); // Adjust breakpoint as needed
+
     const authContext = useContext(AuthContext);
     const [currentUser, setCurrentUser] = useState(null); 
     console.log('current user', currentUser);
@@ -60,13 +62,23 @@ export const Navbar = ({totalItems}) => {
             <div className="nav">
                 <div className="navbar-content">
                     <div className="logo-placeholder">WEB AGENCY</div>
-                    <IconButton 
-                        className={`menu-button ${menuOpen ? 'menu-open' : ''}`} 
-                        onClick={toggleMenu}
-                    > 
-                        <MenuIcon className="menu-icon" />
-                        <CloseIcon className="close-icon" />
-                    </IconButton>
+                    {isMobile ? (
+                        <IconButton 
+                            className={`menu-button ${menuOpen ? 'menu-open' : ''}`} 
+                            onClick={toggleMenu}
+                        > 
+                            <MenuIcon className="menu-icon" />
+                            <CloseIcon className="close-icon" />
+                        </IconButton>
+                    ) : (
+                        <div className="navbar-links">
+                            {/* Inline Menu Links for larger screens */}
+                            <a href="/">SERVICES</a>
+                            <a href="/Collections">ABOUT</a>
+                            <a href="/Blog">BLOG</a>
+                            <a href="/Contact" id='last-link'>CONTACT US</a>
+                        </div>
+                    )}
                 </div>
             </div>
 
