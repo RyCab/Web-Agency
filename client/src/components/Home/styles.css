@@ -1,18 +1,37 @@
 .home-con{
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     margin-top: 7vh;
     background: linear-gradient(to bottom, rgba(74, 140, 247, 1), white);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* border: 1px solid red; */
 }
 
 .home-con h1{
     width: 85%;
     text-align: center;
     color: rgb(255, 123, 0);
-    font-size: 60px;
+    font-size: 3rem;
     font-family: 'Chewy';
     letter-spacing: 2px;
+}
+
+
+.home-con button{
+    font-family: 'Chewy';
+    letter-spacing: 2px;
+    padding: 1rem;
+    border-radius: 5px 25px;
+    font-size: 1rem;
+    background:none;
+    
+}
+
+.home-con button:hover{
+    border: 2px solid rgb(255, 123, 0);
+    color: rgb(255, 123, 0);
+    cursor: pointer;
 }

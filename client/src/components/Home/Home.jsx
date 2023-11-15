@@ -6,6 +6,7 @@ export const Home = () => {
         <div className="home-con">
             <h1>Discover your brand's potential with our
                 full-stack digital marketing services</h1>
+                <button>Request a Quote</button>
         </div>
     );
 }

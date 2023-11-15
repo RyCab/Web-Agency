@@ -4,24 +4,37 @@
 }
 .services-con h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 3rem;
 }
 
 .services{
     display: flex;
     justify-content: center;
-    gap: 5%;
+    /* gap: 5%; */
     flex-wrap: wrap;
     /* border: 1px solid red; */
 }
 
 .service{
-    width: calc(45% - 4%);
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: left;
     /* border: 1px solid blue; */
 }
 .service h2{
-    font-size: 30px;
+    font-size: 2rem;
+}
+.service h3{
+    color: rgb(255, 123, 0);
+}
+
+
+.service p{
+    /* border: 1px solid red; */
+}
+.service ul{
+    list-style: none;
 }
 @media screen and (max-width: 768px) {
     .services {

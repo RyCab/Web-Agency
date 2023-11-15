@@ -9,9 +9,11 @@ export const Services = () => {
             <div className="services">
                 <div className="service">
                     <h2>Web Development</h2>
-                    <p>Lorem ipsum Lorem ipsum Lorem 
-                        ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                        ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                    <p>Our website design and development team specializes in creating responsive, 
+                        user-friendly, and visually appealing websites that not 
+                        only look great but function flawlessly. We ensure your website is optimized for search engines and designed to convert 
+                        visitors into customers.</p>
+                    <h3>Features Include:</h3>
                     <ul>
                         <li>Front-end web development</li>
                         <li>Back-end web development</li>
@@ -25,6 +27,7 @@ export const Services = () => {
                     <p>Lorem ipsum Lorem ipsum Lorem 
                         ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                         ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                    <h3>Features Include:</h3>
                     <ul>
                         <li>Email marketing</li>
                         <li>Search engine optimization (SEO)</li>
@@ -32,10 +35,11 @@ export const Services = () => {
                     </ul>
                 </div>
                 <div className="service">
-                    <h2>Web Development</h2>
+                    <h2>Graphic Design</h2>
                     <p>Lorem ipsum Lorem ipsum Lorem 
                         ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                         ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                    <h3>Features Include:</h3>
                     <ul>
                         <li>Front-end web development</li>
                         <li>Back-end web development</li>
@@ -43,10 +47,11 @@ export const Services = () => {
                     </ul>
                 </div>
                 <div className="service">
-                    <h2>Web Development</h2>
+                    <h2>Content Marketing</h2>
                     <p>Lorem ipsum Lorem ipsum Lorem 
                         ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                         ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+                    <h3>Features Include:</h3>
                     <ul>
                         <li>Front-end web development</li>
                         <li>Back-end web development</li>
